@@ -10,7 +10,7 @@ ENV APP_DIR = /app
 RUN mkdir $APP_DIR 
 
 #copy jar and related files to the image
-COPY *.jar $APP_DIR/$APP
+COPY *.jar $APP_DIR
 
 #expose server port
 EXPOSE $APP_PORT
